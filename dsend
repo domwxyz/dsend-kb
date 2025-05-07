@@ -1,0 +1,56 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "English (DSend)";
+
+    key <TLDE>	{[   grave,	 asciitilde	]};
+    key <AE01>	{[	 1,	 exclam		]};
+    key <AE02>	{[	 2,	 at		]};
+    key <AE03>	{[	 3,	 numbersign	]};
+    key <AE04>	{[	 4,	 dollar		]};
+    key <AE05>	{[	 5,	 percent	]};
+    key <AE06>	{[	 6,	 asciicircum	]};
+    key <AE07>	{[	 7,	 ampersand	]};
+    key <AE08>	{[	 8,	 asterisk	]};
+    key <AE09>	{[	 9,	 parenleft	]};
+    key <AE10>	{[	 0,	 parenright	]};
+    key <AE11>	{[   minus,	 underscore	]};
+    key <AE12>	{[   equal,	 plus		]};
+
+    key <AD01>	{[	 x,	 X		]};
+    key <AD02>	{[	 c,	 C		]};
+    key <AD03>	{[	 l,	 L		]};
+    key <AD04>	{[	 f,	 F		]};
+    key <AD05>	{[	 v,	 V		]};
+    key <AD06>	{[	 slash,	 question		]};
+    key <AD07>	{[	 semicolon,	 colon		]};
+    key <AD08>	{[	 u,	 U		]};
+    key <AD09>	{[	 p,	 P		]};
+    key <AD10>	{[	 q,	 Q		]};
+    key <AD11>	{[ bracketleft,	 braceleft	]};
+    key <AD12>	{[ bracketright, braceright	]};
+
+    key <AC01>	{[	 r,	 R		]};
+    key <AC02>	{[	 s,	 S		]};
+    key <AC03>	{[	 n,	 N		]};
+    key <AC04>	{[	 t,	 T		]};
+    key <AC05>	{[	 g,	 G		]};
+    key <AC06>	{[	 comma,	 less		]};
+    key <AC07>	{[	 a,	 A		]};
+    key <AC08>	{[	 e,	 E		]};
+    key <AC09>	{[	 h,	 H		]};
+    key <AC10>	{[	 i,	 I		]};
+    key <AC11>	{[ apostrophe,	 quotedbl	]};
+    key <BKSL>	{[ backslash,	 bar		]};
+
+    key <AB01>	{[	 z,	 Z		]};
+    key <AB02>	{[	 w,	 W		]};
+    key <AB03>	{[	 m,	 M		]};
+    key <AB04>	{[	 d,	 D		]};
+    key <AB05>	{[	 b,	 B		]};
+    key <AB06>	{[  period,	 greater	]};
+    key <AB07>	{[	 o,	 O		]};
+    key <AB08>	{[	 y,	 Y		]};
+    key <AB09>	{[	 k,	 K		]};
+    key <AB10>	{[	 j,	 J		]};
+};

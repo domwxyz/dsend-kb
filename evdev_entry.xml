@@ -1,0 +1,10 @@
+<layout>
+  <configItem>
+    <name>dsend</name>
+    <shortDescription>dsend</shortDescription>
+    <description>English (DSend)</description>
+    <languageList>
+      <iso639Id>eng</iso639Id>
+    </languageList>
+  </configItem>
+</layout>
